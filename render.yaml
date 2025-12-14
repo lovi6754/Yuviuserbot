@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 server.py & python3 -m RishuUserBot  
  repo:
-https://github.com/BABY-MUSIC/SATYA_USERBOT    
+https://github.com/RishuBot/RishuUserBot    
     branch: main
     envVars:
       - key: SUDO_USERS 
