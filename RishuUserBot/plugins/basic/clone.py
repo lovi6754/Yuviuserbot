@@ -8,8 +8,8 @@ from RishuUserBot.helper.basic import edit_or_reply, get_text, get_user
 
 from RishuUserBot.plugins.help import *
 
-OWNER = os.environ.get("OWNER", "R I S H U")
-BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ @Ur_rishu_143")
+OWNER = os.environ.get("OWNER", "Y U V I ")
+BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ @X_yuvii")
 
 
 @Client.on_message(filters.command("clone", ".") & filters.me)
