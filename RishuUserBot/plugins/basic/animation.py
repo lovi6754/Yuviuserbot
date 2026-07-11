@@ -173,7 +173,7 @@ async def hello_world(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & (filters.command(["rishu"], ".") | filters.regex("^rishuu"))
+    filters.me & (filters.command(["yuvi"], ".") | filters.regex("^yuvi"))
 )
 async def hello_world(client: Client, message: Message):
     mg = await edit_or_reply(message, "ʀɪsʜᴜ")
@@ -258,21 +258,21 @@ async def hajqag(client: Client, message: Message):
     animation_chars = [
         "`Connecting To Telegram #ʀɪsʜᴜ`",
         "`Call Connected.`",
-        "`ʀɪsʜᴜ: Hello ʙᴏʟ ᴍᴄ. ᴋᴏɴ ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ ʜᴀɪ ᴛᴜ...ʙsᴅᴋᴇ ᴋʏᴀ ᴋᴀᴀᴍ ʜᴀɪ ᴛᴇʀᴀ..?`",
+        "`Yuvi: Hello ʙᴏʟ ᴍᴄ. ᴋᴏɴ ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ ʜᴀɪ ᴛᴜ...ʙsᴅᴋᴇ ᴋʏᴀ ᴋᴀᴀᴍ ʜᴀɪ ᴛᴇʀᴀ..?`",
         f"`Me:  ᴍᴇ ʜᴜɴ ᴛᴇʀᴀ` {DEFAULTUSER} ,`ᴍᴜᴛʜᴇ    ᴇᴋ ʀᴀɴᴅɪ ᴋɪ ɢᴀᴀɴᴅ🍃 ᴋɪ ɢᴀɴᴅ ᴍᴀʀɴɪ ʜᴀɪ..😁😁`",
         "`User Authorised.`",
         "`Calling ㅤ ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ🍃`  `At +916985696969`",
         "`Private  Call Connected...`",
         "`Me:ʜᴇʟʟᴏ ᴍᴄ, ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ🍃...ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ...🤣🤣😂.`",
-        "ㅤ ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ🍃 :ᴏᴋᴀʏ sɪʀ ʙᴜᴛ ᴘᴇʜʟᴇ #ʀɪsʜᴜ ᴋᴀ ʙᴇᴛᴀ ᴋᴏɴ ʜᴀɪ ᴛᴜ?...😎`",
+        "ㅤ ʀᴀɴᴅɪ ᴋᴀ ᴘɪʟʟᴀ🍃 :ᴏᴋᴀʏ sɪʀ ʙᴜᴛ ᴘᴇʜʟᴇ #Yuvi ᴋᴀ ʙᴇᴛᴀ ᴋᴏɴ ʜᴀɪ ᴛᴜ?...😎`",
         f"`ᴍᴇ: ᴀʙᴇ ᴢʜᴀᴛᴜ, ɪ ᴀᴍ` {DEFAULTUSER} ",
-        "`ㅤ ʀɪsʜᴜ🍃 : ᴀʙᴇ ғᴀᴛᴇ ʜᴜʏᴇ ᴄᴏɴᴅᴀᴍ ᴋᴇ ɴᴀᴛɪᴊᴇ...🤣🤣\nʙsᴅᴋᴇ ɢʜᴀʀ ᴍᴇ ɢʜᴜsᴋᴇ ᴛᴇʀɪ ᴀᴍᴍᴀ ʙᴇʜᴇɴ ᴋᴀ ʀᴇᴘ ᴋᴀʀᴅᴜɴɢᴀ ᴢʜᴀᴛᴜ😜.`",
-        "`ᴍᴇ: ᴀʙᴇ ʙsᴅᴋᴇ... ᴛᴇʟᴇɢʀᴀᴍ #ʀɪsʜᴜ ᴋᴏ ᴄʜᴀʟᴀ ʀᴀʜᴀ ᴋɪ #ʀɪsʜᴜ ᴛᴇʟᴇɢʀᴀᴍ ᴋᴏ ᴄʜᴀʟᴀ ʀᴀʜᴀ...?😜.`",
-        "`ㅤ ʀɪsʜᴜ🍃 : ʙᴇᴛᴇ...!! ɴᴀᴀ ᴊᴀᴍɪɴ ᴘᴇ ɴᴀ ᴀᴀsᴍᴀɴ ᴘᴇ...😉😉 ᴛᴇʀɪ ᴍᴀʏʏᴀ ᴋᴏ ᴄʜʜᴏᴅᴜɴɢᴀ ᴍᴇ #ʀɪsʜᴜ ᴋᴇ ʜᴀᴠᴇʟɪ ᴘᴇ...🥵🥵.`",
+        "`ㅤ Yuvi🍃 : ᴀʙᴇ ғᴀᴛᴇ ʜᴜʏᴇ ᴄᴏɴᴅᴀᴍ ᴋᴇ ɴᴀᴛɪᴊᴇ...🤣🤣\nʙsᴅᴋᴇ ɢʜᴀʀ ᴍᴇ ɢʜᴜsᴋᴇ ᴛᴇʀɪ ᴀᴍᴍᴀ ʙᴇʜᴇɴ ᴋᴀ ʀᴇᴘ ᴋᴀʀᴅᴜɴɢᴀ ᴢʜᴀᴛᴜ😜.`",
+        "`ᴍᴇ: ᴀʙᴇ ʙsᴅᴋᴇ... ᴛᴇʟᴇɢʀᴀᴍ #Yuvi ᴋᴏ ᴄʜᴀʟᴀ ʀᴀʜᴀ ᴋɪ #Yuvi ᴛᴇʟᴇɢʀᴀᴍ ᴋᴏ ᴄʜᴀʟᴀ ʀᴀʜᴀ...?😜.`",
+        "`ㅤ Yuvi🍃 : ʙᴇᴛᴇ...!! ɴᴀᴀ ᴊᴀᴍɪɴ ᴘᴇ ɴᴀ ᴀᴀsᴍᴀɴ ᴘᴇ...😉😉 ᴛᴇʀɪ ᴍᴀʏʏᴀ ᴋᴏ ᴄʜʜᴏᴅᴜɴɢᴀ ᴍᴇ #Yuvi ᴋᴇ ʜᴀᴠᴇʟɪ ᴘᴇ...🥵🥵.`",
         "`ᴍᴇ: ʙʜᴀɪ...ʏᴀᴀʀ ᴍᴇʀɪ ɢᴀᴀɴᴅ ᴍᴀʀᴏ ʙᴜᴛ ᴍᴜᴊʜᴇ ᴍᴀғ ᴋᴀʀᴏ...🤯`",
-        "`ㅤ ʀɪsʜᴜ🍃 : ʜɪʜɪʜɪ... ʏᴇ ʜᴜɪ ɴᴀ ʙᴀᴀᴛ....😁😁\nᴄʜᴀʟ ᴀᴀʙ ᴀᴀᴘɴɪ ʀᴀɴᴅɪ ᴍᴀʏʏᴀ ᴋᴏ #ʀɪsʜᴜ ᴋᴇ ᴠᴄ ᴘᴇ ʙᴜʟᴀ ᴋᴇ ʟᴏᴠᴇ ᴜ ʙᴏʟɴᴇ  ᴋᴏ ʙᴏʟ😛😛.`",
+        "`ㅤ Yuvi🍃 : ʜɪʜɪʜɪ... ʏᴇ ʜᴜɪ ɴᴀ ʙᴀᴀᴛ....😁😁\nᴄʜᴀʟ ᴀᴀʙ ᴀᴀᴘɴɪ ʀᴀɴᴅɪ ᴍᴀʏʏᴀ ᴋᴏ #Yuvi ᴋᴇ ᴠᴄ ᴘᴇ ʙᴜʟᴀ ᴋᴇ ʟᴏᴠᴇ ᴜ ʙᴏʟɴᴇ  ᴋᴏ ʙᴏʟ😛😛.`",
         "`ᴍᴇ: ʙʜᴀɪ ᴘʟᴢ ɢᴀʟɪ ᴍᴛ ᴅᴏ😥.`",
-        "`ㅤ ʀɪsʜᴜ🍃 : ᴛᴏ #ʀɪsʜᴜ ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ ᴀᴜʀ...ᴄʜᴀʟ ʙʜᴀɢ ʏᴀʜᴀ sᴇ ᴍᴄ..ʙsᴅᴋᴇ ᴋᴇ ᴘʜɪʀ ᴄᴀʟʟ ᴋɪʏᴀ ᴛᴏ #ʀɪsʜᴜ ᴋɪ ᴠᴄ ᴘᴇ ᴛᴇʀᴇ ʙᴀᴀᴘ ᴋɪ ᴄʜᴜᴛ ᴍᴀʀᴜɴɢᴀ..🤣🤣  \n🙈𝐓ɢ 𝐏ᴇ 𝐑ᴇʜɴᴀ 𝐇ᴀɪ 𝐓ᴏ🧐 ʀɪsʜᴜ 𝐊ᴏ 𝐁ᴀᴀᴘ💞ᴋᴀʜɴᴀ ʜᴀɪ🤪 @Rishu1286 👻 :)`",
+        "`ㅤ Yuvi🍃 : ᴛᴏ #Yuvi ᴋᴏ ʙᴀᴀᴘ ʙᴏʟ ᴀᴜʀ...ᴄʜᴀʟ ʙʜᴀɢ ʏᴀʜᴀ sᴇ ᴍᴄ..ʙsᴅᴋᴇ ᴋᴇ ᴘʜɪʀ ᴄᴀʟʟ ᴋɪʏᴀ ᴛᴏ #ʀɪsʜᴜ ᴋɪ ᴠᴄ ᴘᴇ ᴛᴇʀᴇ ʙᴀᴀᴘ ᴋɪ ᴄʜᴜᴛ ᴍᴀʀᴜɴɢᴀ..🤣🤣  \n🙈𝐓ɢ 𝐏ᴇ 𝐑ᴇʜɴᴀ 𝐇ᴀɪ 𝐓ᴏ🧐 Yuvi 𝐊ᴏ 𝐁ᴀᴀᴘ💞ᴋᴀʜɴᴀ ʜᴀɪ🤪 @x_yuvii 👻 :)`",
         "`ᴘʀɪᴠᴀᴛᴇ ᴄᴀʟʟ ᴅɪsᴄᴏɴɴᴇᴄᴛᴇᴅ....ᴊᴏʀ sᴇ ʙᴏʟᴏ ʀɪsʜᴜ ᴘᴀᴘᴀ ᴊɪ ᴊᴀɪ🤣🤣🤣`",
     ] 
     for i in animation_ttl:
@@ -342,7 +342,7 @@ async def gkahgagw(client: Client, message: Message):
         "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [ʀɪsʜᴜ](https://t.me/rishu1286) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [YUVII](https://t.me/x_yuvii) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
     ]
     if message.forward_from:
         return
@@ -398,7 +398,7 @@ async def gajjajay(client: Client, message: Message):
     await asyncio.sleep(0.3)
     await message.edit("🔥🔥🔥")
     await asyncio.sleep(0.3)
-    await message.edit("EVERyBOdy iZ GangSTur UNtIL #ʀɪsʜᴜ ArRivE 🔥🔥🔥")
+    await message.edit("EVERyBOdy iZ GangSTur UNtIL #Yuvi ArRivE 🔥🔥🔥")
 
 
 @Client.on_message(filters.command("charging", ".") & filters.me)
@@ -539,7 +539,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`  [ʀɪsʜᴜ](https://t.me/rishu1286)"
+        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`  [ʀɪsʜᴜ](https://t.me/x_yuvii)"
     )
 
 
