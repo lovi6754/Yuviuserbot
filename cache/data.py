@@ -93,7 +93,7 @@ RAID = [
     "MALUM NA PHR KESE LETA HU M TERI MA KI CHUT TAPA TAPPPPP",
     "LUND KE CHODE TU KEREGA TYPIN",
     "SPEED PKD LWDEEEE",
-    "@Rishu1286 BAAP KI SPEED MTCH KRRR",
+    "@x_yuvii BAAP KI SPEED MTCH KRRR",
     "LWDEEE",
     "PAPA KI SPEED MTCH NHI HO RHI KYA",
     "ALE ALE MELA BCHAAAA",
@@ -205,13 +205,13 @@ RAID = [
 ]
 
 
-GRP = "@Ur_rishu_143"
+GRP = "@xx_yuvii"
 
 GROUP = [-1001992970818]
 
 VERIFIED_USERS = [5738579437]
 
-Owners = "@Rishu1286"
+Owners = "@x_yuvii"
 
 PORN = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
