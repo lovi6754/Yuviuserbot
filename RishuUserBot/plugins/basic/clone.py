@@ -9,7 +9,7 @@ from RishuUserBot.helper.basic import edit_or_reply, get_text, get_user
 from RishuUserBot.plugins.help import *
 
 OWNER = os.environ.get("OWNER", "Y U V I ")
-BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ @X_yuvii")
+BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ @yuvi_botes")
 
 
 @Client.on_message(filters.command("clone", ".") & filters.me)
